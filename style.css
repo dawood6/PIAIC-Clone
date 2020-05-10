@@ -1,11 +1,10 @@
 * {
   font-family: "Open Sans";
-  margin: 0 ;
+  margin: 0;
 }
 .president {
   background-color: #e7e3e3;
   padding-left: 100px;
-  text-align: center;
 }
 .navbar {
   background-image: linear-gradient(270deg, #08383d, #01645f);
@@ -94,8 +93,16 @@
 .head2 {
   color: #2b2929;
   font-size: 24px;
-  white-space: nowrap;
-  overflow: hidden;
 }
-
-
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #d6d5d2;
+}
+::-webkit-scrollbar-thumb {
+  background: #34857c;
+}
+.align {
+  position: absolute;
+}
