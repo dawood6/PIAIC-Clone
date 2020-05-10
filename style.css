@@ -61,7 +61,7 @@
   background-image: linear-gradient(270deg, #08383d, #01645f);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1; 
+  z-index: 1;
 }
 
 .dropdown-content a {
@@ -88,7 +88,7 @@
 
 .presidentimg {
   width: 28%;
-  margin-left: 40px; 
+  margin-left: 40px;
   margin-top: 0px;
 }
 .head1 {
@@ -125,9 +125,16 @@
   padding: 11px 44px;
   border: none;
   outline-style: none;
-  background-image: linear-gradient(270deg,#08d88d,#0eb5a3);
+  background-image: linear-gradient(270deg, #08d88d, #0eb5a3);
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   cursor: pointer;
   border-radius: 4px;
+  position: absolute;
+  top: 530px;
+  right: 240px;
+}
+.vr {
+  border-left: 6px solid #01645f;
+  height: 700px;
 }
