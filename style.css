@@ -1,5 +1,5 @@
-* {
-  font-family: "Open Sans";
+body {
+  font-family: 'Exo 2', sans-serif;
   margin: 0;
 }
 .president {
@@ -93,7 +93,7 @@
 }
 .head1 {
   font-size: 60px;
-  font-weight: 650;
+  font-weight: 500;
   color: #2b2929;
 }
 .head2 {
@@ -135,6 +135,25 @@
   right: 240px;
 }
 .vr {
-  border-left: 6px solid #01645f;
-  height: 700px;
+  border-left: 2px solid #192A56;
+  height: 57px;
+  position: absolute;
+  top: 515px;
+  right: 220px;
+}
+.odometer {
+  font-family: 'Open Sans';
+  font-size: 40px;
+  color: #212529;
+  position: absolute;
+  bottom: 345px;
+  left: 1170px;
+}
+.odometer-k  {
+  font-family: 'Open Sans';
+  font-size: 40px;
+  color: #212529;
+  position: absolute;
+  top: 512px;
+  right: 86px;
 }
