@@ -1,5 +1,5 @@
 body {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   margin: 0;
 }
 .president {
@@ -89,7 +89,6 @@ body {
 .presidentimg {
   width: 28%;
   margin-left: 40px;
-  margin-top: 0px;
 }
 .head1 {
   font-size: 60px;
@@ -135,22 +134,22 @@ body {
   right: 240px;
 }
 .vr {
-  border-left: 2px solid #192A56;
+  border-left: 2px solid #192a56;
   height: 57px;
   position: absolute;
   top: 515px;
   right: 220px;
 }
 .odometer {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 40px;
   color: #212529;
   position: absolute;
   bottom: 345px;
   left: 1170px;
 }
-.odometer-k  {
-  font-family: 'Open Sans';
+.odometer-k {
+  font-family: "Open Sans";
   font-size: 40px;
   color: #212529;
   position: absolute;
@@ -165,4 +164,78 @@ body {
 ::selection {
   color: white;
   background: #48d488;
+}
+.card-heading {
+  font-family: "Fira Sans", sans-serif;
+  color: #666666;
+  letter-spacing: 17px;
+  font-weight: 800;
+  text-align: center;
+}
+.cards {
+  float: left;
+  width: 300px;
+  padding: 8px;
+  margin-left: 17px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.price .header {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  font-size: 15x;
+  height: 0px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .white {
+  background-color: #ffff;
+  font-size: 17px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#card1 {
+  background-color: #192a56;
+}
+#card2 {
+  background-color: #e1006a ;
+}
+#card3 {
+  background-color: #fbc314;
+}
+#card4 {
+  background-color: #1b8f8b ;
+}
+#card-text1 {
+  color: #192a56;
+}
+#card-text2 {
+  color: #e1006a;
+}
+#card-text3 {
+  color: #fbc314;
+}
+#card-text4 {
+  color: #1b8f8b;
+}
+.course-cards {
+  margin-top: -300px;
 }
