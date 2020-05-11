@@ -157,3 +157,12 @@ body {
   top: 512px;
   right: 86px;
 }
+::-moz-selection {
+  color: white;
+  background: #48d488;
+}
+
+::selection {
+  color: white;
+  background: #48d488;
+}
