@@ -6,7 +6,8 @@ body {
   background-color: #e7e3e3;
   background-attachment: fixed;
   background-position: 40px 100px;
-  background-size: 27.5%;
+  background-size: 28%;
+  background-attachment: scroll;
 }
 
 .navbar {
@@ -113,7 +114,6 @@ body {
   position: absolute;
   top: 135px;
   right: 120px;
-  position: fixed;
 }
 .par-info {
   font-size: 13.5px;
@@ -133,7 +133,6 @@ body {
   position: absolute;
   top: 530px;
   right: 240px;
-  position: fixed;
 }
 .vr {
   border-left: 2px solid #192a56;
@@ -141,7 +140,6 @@ body {
   position: absolute;
   top: 515px;
   right: 220px;
-  position: fixed;
 }
 .odometer {
   position: absolute;
@@ -150,7 +148,6 @@ body {
   color: #212529;
   left: 1170px;
   top: 295px;
-  position: fixed;
 }
 .odometer-k {
   font-family: "Open Sans";
@@ -159,7 +156,6 @@ body {
   position: absolute;
   top: 512px;
   right: 86px;
-  position: fixed;
 }
 ::-moz-selection {
   color: white;
@@ -186,7 +182,6 @@ body {
 }
 .price {
   list-style-type: none;
-  border: 1px solid #eee;
   border-radius: 5px;
   margin: 0;
   padding: 0;
@@ -242,8 +237,5 @@ body {
   color: #1b8f8b;
 }
 .course-cards {
-  margin-top: 300px;
-}
-.fixed {
-  position: fixed;
+  margin-top: 350px;
 }
