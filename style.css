@@ -266,16 +266,23 @@ li {
   font-size: 10px;
   margin-top: -15px;
   color: #ffff;
+  cursor: default;
 }
 .video-heading {
   font-size: 13px;
   color: rgb(141, 209, 191);
+  margin-top: -48px;
+  cursor: default;
+}
+.video-heading:focus {
+  text-decoration: underline;
 }
 .videos {
   height: 480px;
   width: 394px;
   overflow-y: scroll;
   background-color: #484848;  
+  cursor: default;
 }
 
 .videos::-webkit-scrollbar {
@@ -305,4 +312,16 @@ li {
 }
 iframe {
   margin-left: 55px;
+}
+.youtube-vid-head {
+  margin-top: 50px;
+  margin-left: 55px;
+}
+.you-par {
+  font-size: 13px;
+  color: #ffff;
+}
+.you-head {
+  font-size: 20px;
+  color: rgb(141, 209, 191);
 }
