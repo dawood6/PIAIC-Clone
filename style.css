@@ -185,7 +185,7 @@ body {
   border-radius: 5px;
   margin: 0;
   padding: 0;
-  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .price .header {
@@ -265,15 +265,17 @@ li {
 .video-par {
   font-size: 10px;
   margin-top: -15px;
+  color: #ffff;
 }
 .video-heading {
   font-size: 13px;
+  color: rgb(141, 209, 191);
 }
-/* .videos {
-  height: 483px;
+.videos {
+  height: 480px;
   width: 394px;
   overflow-y: scroll;
-  background-color: #484848;
+  background-color: #484848;  
 }
 
 .videos::-webkit-scrollbar {
@@ -284,4 +286,23 @@ li {
 }
 .videos::-webkit-scrollbar-thumb {
   background: #05d883;
-} */
+}
+.youtube-videos {
+  float: left;
+}
+.video-con {
+  position: absolute;
+  top: 68.2em;
+  right: 75px;
+}
+.video-portion {
+  background-color: #2b2929;
+}
+.vid-head {
+  color: #ffff;
+  font-size: 40px;
+  margin-left: 70px;
+}
+iframe {
+  margin-left: 55px;
+}
