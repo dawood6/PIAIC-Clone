@@ -282,7 +282,7 @@ li {
   width: 394px;
   overflow-y: scroll;
   background-color: #484848;  
-  cursor: default;
+  
 }
 
 .videos::-webkit-scrollbar {
@@ -324,4 +324,7 @@ iframe {
 .you-head {
   font-size: 20px;
   color: rgb(141, 209, 191);
+}
+tr {
+  cursor: pointer;
 }
