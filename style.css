@@ -195,7 +195,13 @@ body {
   font-size: 15x;
   height: 0px;
 }
-
+.price .header1 {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  font-size: 15x;
+  height: 0px;
+}
 .price li {
   border-bottom: 1px solid #eee;
   padding: 20px;
@@ -204,6 +210,16 @@ body {
 
 .price .white {
   background-color: #ffff;
+  font-size: 17px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price .yellow {
+  background-color: #192a56;
   font-size: 17px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -239,3 +255,33 @@ body {
 .course-cards {
   margin-top: 350px;
 }
+li {
+  list-style-type: none;
+}
+.video-img {
+  width: 160px;
+  height: 110px;
+}
+.video-par {
+  font-size: 10px;
+  margin-top: -20px;
+}
+.video-heading {
+  font-size: 13px;
+}
+/* .videos {
+  height: 483px;
+  width: 394px;
+  overflow-y: scroll;
+  background-color: #484848;
+}
+
+.videos::-webkit-scrollbar {
+  width: 10px;
+}
+.videos::-webkit-scrollbar-track {
+  background: #414141;
+}
+.videos::-webkit-scrollbar-thumb {
+  background: #05d883;
+} */
